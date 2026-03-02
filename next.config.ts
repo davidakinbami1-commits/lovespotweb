@@ -1,8 +1,11 @@
 import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
-  experimental: { appDir: true },
-  images: { domains: ['lovespotapp.com'] },
+  images: {
+    remotePatterns: [
+      { protocol: 'https', hostname: 'lovespotapp.com' },
+    ],
+  },
 };
 
 export default nextConfig;
