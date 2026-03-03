@@ -9,7 +9,7 @@ import {
   type BoostBilling,
 } from '@/lib/pricing';
 
-const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!, { apiVersion: '2024-11-20.acacia' });
+const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!, { apiVersion: '2024-06-20' });
 
 const APP_URL = process.env.NEXT_PUBLIC_APP_URL ?? 'https://lovespotapp.com';
 
