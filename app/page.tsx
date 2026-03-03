@@ -232,7 +232,7 @@ const FEATURES = [
   {
     icon: '📹',
     title: 'Video Calls',
-    desc: 'Move to video at your own pace — no need to share your phone number until you're ready.',
+    desc: "Move to video at your own pace — no need to share your phone number until you're ready.",
   },
   {
     icon: '✅',
